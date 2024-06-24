@@ -19,3 +19,18 @@ body {
   background-color: chocolate;
   overflow: hidden;
 }
+.rejectbar ul {
+  list-style-type: none;
+}
+
+.rejectbar li {
+  float: left;
+}
+
+.rejectbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
