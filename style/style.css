@@ -26,6 +26,8 @@ body {
 
 .rejectbar li {
   float: left;
+  border-right: 1px solid #bbb;
+  float: left;
 }
 
 .rejectbar li a {
@@ -35,12 +37,14 @@ body {
   padding: 14px 16px;
   text-decoration: none;
 }
+nav:hover {
+  background-color: rgb(135, 184, 159);
+}
 .careerimg {
   max-width: 100%;
   height: auto;
   border-radius: 50%;
   padding: 5px;
-  /* width: 150px; */
 }
 img:hover {
   box-shadow: 0 0 2px 1px rgba(72, 175, 85, 0.5);
