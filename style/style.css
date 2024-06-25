@@ -1,5 +1,17 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(206, 228, 230);
+  /* position: center; */
+  padding: 5% 5%;
+  height: 200px;
+  width: 50%;
+}
+h2 {
+  position: center;
+}
+
 #header {
-  background-color: #333;
+  background-color: #6cdaee;
   color: white;
   text-align: center;
   padding: 20px 0;
@@ -9,15 +21,9 @@
   padding: 15;
   box-sizing: content-box;
 }
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(206, 228, 230);
-  position: center;
-  padding: 18px 20px;
-}
 
 .rejectbar {
-  background-color: chocolate;
+  background-color: rgb(94, 117, 158);
   overflow: hidden;
 }
 .rejectbar ul {
@@ -36,8 +42,9 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  border-right: none;
 }
-nav:hover {
+.rejectbar li:hover {
   background-color: rgb(135, 184, 159);
 }
 .careerimg {
@@ -51,4 +58,9 @@ img:hover {
 }
 table {
   border: 1px solid;
+}
+.self {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
