@@ -5,9 +5,14 @@ body {
   padding: 5% 5%;
   height: 200px;
   width: 50%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 }
 h2 {
-  position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #header {
@@ -15,12 +20,15 @@ h2 {
   color: white;
   text-align: center;
   padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-* {
+/* * {
   margin: 15;
   padding: 15;
   box-sizing: content-box;
-}
+} */
 
 .rejectbar {
   background-color: rgb(94, 117, 158);
@@ -46,6 +54,9 @@ h2 {
 }
 .rejectbar li:hover {
   background-color: rgb(135, 184, 159);
+}
+.rejectbar li:active {
+  color: rgb(117, 148, 71);
 }
 .careerimg {
   max-width: 100%;
